@@ -11,6 +11,7 @@
     "start": "tsc -b && vite build && vite --port 3001 preview"
   },
   "dependencies": {
+    "@adam/confetti": "npm:@jsr/adam__confetti",
     "@testing-library/react": "^16.0.1",
     "@try-bun/helpers": "workspace:*",
     "react": "^18.3.1",

@@ -9,6 +9,7 @@ Test [Bun](https://bun.sh) features.
   - Shared local packages
 - React SPA
 - Tests
+- Use [JSR](https://jsr.io/) package
 
 ### Get started
 
