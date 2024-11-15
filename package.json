@@ -1,0 +1,13 @@
+{
+  "name": "@try-bun/monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "bun run --filter '*' dev",
+    "test": "bun run --filter '*' test",
+    "lint": "bun run --filter '@try-bun/client' lint",
+    "start": "bun run --filter '*' start"
+  }
+}

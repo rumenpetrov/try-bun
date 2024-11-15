@@ -1,0 +1,11 @@
+{
+  "name": "@try-bun/helpers",
+  "module": "index.ts",
+  "devDependencies": {
+    "bun-types": "^1.1.34"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
